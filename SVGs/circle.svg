@@ -1,0 +1,4 @@
+<svg width="!WIDTH!" height="!HEIGHT!">
+	<circle cx="50%" cy="50%" r="!RADIUS!" stroke="!COLOR!" fill="none" stroke-width="!STROKEWIDTH!" stroke-opacity="0.2" />
+	<circle cx="50%" cy="50%" r="!RADIUS!" stroke="!COLOR!" fill="none" stroke-width="!STROKEWIDTH!" stroke-dasharray="!DASHARRAY!" stroke-dashoffset="!OFFSET!" />
+</svg>

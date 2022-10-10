@@ -12,7 +12,7 @@ WORKDIR /opt/circle-api
 RUN ls
 RUN npm install
 
-EXPOSE 5000
+EXPOSE 8080
 VOLUME /opt/circle-api
 
 ENTRYPOINT node index.js

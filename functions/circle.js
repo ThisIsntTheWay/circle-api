@@ -15,7 +15,7 @@ exports.draw = async function(Color, Percentage, Radius, StrokeWidth) {
     let dasharray = strokeDash + ", " + (circumference - strokeDash)
 
     // Read SVG
-    let targetPath = ".\\SVGs\\circle.svg"
+    let targetPath = "./SVGs/circle.svg"
     try {
         if (!fs.existsSync(targetPath)) {
             throw "Server did not find circle SVG: " + targetPath

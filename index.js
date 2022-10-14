@@ -6,7 +6,7 @@ const circle = require('./functions/circle');
 
 //app.use(express.json())
 
-let hexRegex = /^#[0-9A-F]{6}$/i;
+let hexRegex = /^[0-9A-F]{6}$/i;
 
 app.get('/circle', (req, res) => {
     try {
@@ -28,7 +28,7 @@ app.get('/circle', (req, res) => {
 
         // Valid: '#AABBCC'
         if (!hexRegex.test(params.color)) {
-            throw "Value for 'color' is not a valid HEX color string. Accepted format: #AABBCC"
+            throw "Value for 'color' is not a valid HEX color string. Accepted format: AABBCC"
         }
 
         let strokeWidth = 5
